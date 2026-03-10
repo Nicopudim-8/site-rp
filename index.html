@@ -7,68 +7,51 @@
 <style>
 
 body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg,#0a0014,#1b0033,#2d0055);
-    color:white;
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#0a0014,#1b0033,#2d0055);
+color:white;
 }
 
 .container{
-    width:90%;
-    margin:auto;
-    padding:40px 0;
+width:90%;
+margin:auto;
+padding:40px;
 }
 
 h1{
-    font-size:42px;
-    margin-bottom:10px;
+font-size:40px;
 }
 
 h2{
-    margin-top:60px;
-    font-size:32px;
-}
-
-p{
-    color:#cfcfcf;
-    line-height:1.6;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:30px;
-    margin-top:40px;
-}
-
-.card{
-    border-top:2px solid #a855f7;
-    padding-top:20px;
+margin-top:60px;
+border-bottom:2px solid #a855f7;
+padding-bottom:10px;
 }
 
 .tabela{
-    margin-top:30px;
-    background:rgba(255,255,255,0.03);
-    padding:25px;
-    border-radius:10px;
+margin-top:20px;
+background:rgba(255,255,255,0.03);
+padding:20px;
+border-radius:10px;
 }
 
 .item{
-    display:flex;
-    justify-content:space-between;
-    padding:8px 0;
-    border-bottom:1px solid rgba(255,255,255,0.05);
+display:flex;
+justify-content:space-between;
+padding:10px 0;
+border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
 .item:last-child{
-    border-bottom:none;
+border-bottom:none;
 }
 
 .nota{
-    margin-top:60px;
-    background:#3b0764;
-    padding:20px;
-    border-radius:8px;
+margin-top:50px;
+background:#3b0764;
+padding:20px;
+border-radius:8px;
 }
 
 </style>
@@ -78,98 +61,79 @@ p{
 
 <div class="container">
 
-<h1>Tabelas de Valores da Cidade</h1>
+<h1>Tabela de Valores da Cidade</h1>
 
 <p>
-Bem-vindo ao sistema de consulta de valores da cidade.  
-Aqui você encontra as principais tabelas de referência utilizadas no RP,
-incluindo mecânica, hospital e ilegal.
+Sistema oficial de consulta de valores da cidade.
+Aqui estão listados os preços da Mecânica, Hospital e Itens Ilegais.
 </p>
 
+<!-- MECANICA -->
 
-<h2>Tabela Mecânica</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>01 - Reparo</h3>
-
-<p>Dentro da Mecânica: <b>25.000$</b></p>
-<p>Fora da Mecânica: <b>50.000$</b></p>
-
-</div>
-
-
-<div class="card">
-<h3>02 - Full Tuning</h3>
-
-<p>Turbo, Transmissão, Freio, Motor e Suspensão:</p>
-<p><b>120.000$ cada</b></p>
-
-</div>
-
-</div>
-
-
-
-<h2>Blindagem</h2>
+<h2>Mecânica</h2>
 
 <div class="tabela">
 
-<div class="item">
-<span>Blindagem</span>
-<span>6.000.000$</span>
+<div class="item"><span>Reparo dentro da mecânica</span><span>25.000$</span></div>
+<div class="item"><span>Reparo fora da mecânica</span><span>50.000$</span></div>
+
+<div class="item"><span>Turbo</span><span>120.000$</span></div>
+<div class="item"><span>Transmissão</span><span>120.000$</span></div>
+<div class="item"><span>Freio</span><span>120.000$</span></div>
+<div class="item"><span>Motor</span><span>120.000$</span></div>
+<div class="item"><span>Suspensão</span><span>120.000$</span></div>
+
+<div class="item"><span>Blindagem</span><span>6.000.000$</span></div>
+
+<div class="item"><span>Placa</span><span>55.000$</span></div>
+<div class="item"><span>Livery</span><span>55.000$</span></div>
+<div class="item"><span>Xenon</span><span>35.000$</span></div>
+<div class="item"><span>Buzina</span><span>55.000$</span></div>
+
 </div>
 
-<div class="item">
-<span>Blindagem dos Pneus</span>
-<span>Indisponível</span>
-</div>
 
-</div>
+<!-- HOSPITAL -->
 
-
-
-<h2>Acessórios</h2>
+<h2>Hospital</h2>
 
 <div class="tabela">
 
-<div class="item"><span>Placa</span><span>55.000</span></div>
-<div class="item"><span>Livery</span><span>55.000</span></div>
-<div class="item"><span>Bloco do Motor</span><span>35.000</span></div>
-<div class="item"><span>Hidráulica</span><span>35.000</span></div>
-<div class="item"><span>Roda Traseira</span><span>100.000</span></div>
-<div class="item"><span>Roda Dianteira</span><span>100.000</span></div>
-<div class="item"><span>Teto</span><span>35.000</span></div>
-<div class="item"><span>Paralama Direito</span><span>35.000</span></div>
-<div class="item"><span>Paralama Esquerdo</span><span>35.000</span></div>
-<div class="item"><span>Capô</span><span>35.000</span></div>
-<div class="item"><span>Grade</span><span>35.000</span></div>
-<div class="item"><span>Gaiola</span><span>35.000</span></div>
-<div class="item"><span>Exaustor</span><span>35.000</span></div>
-<div class="item"><span>Saias</span><span>35.000</span></div>
-<div class="item"><span>Parachoque Traseiro</span><span>35.000</span></div>
-<div class="item"><span>Parachoque Dianteiro</span><span>35.000</span></div>
-<div class="item"><span>Aerofólio</span><span>35.000</span></div>
-<div class="item"><span>Xenon</span><span>35.000</span></div>
-<div class="item"><span>Buzina</span><span>55.000</span></div>
-<div class="item"><span>Fumaça do Pneu</span><span>1.000</span></div>
+<div class="item"><span>Reviver</span><span>10.000$</span></div>
+<div class="item"><span>Tratamento</span><span>5.000$</span></div>
+<div class="item"><span>Bandagem</span><span>2.000$</span></div>
+<div class="item"><span>Kit Médico</span><span>5.000$</span></div>
+<div class="item"><span>UTI</span><span>20.000$</span></div>
 
 </div>
 
+
+<!-- ILEGAL -->
+
+<h2>Ilegal</h2>
+
+<div class="tabela">
+
+<div class="item"><span>Pistola</span><span>25.000$</span></div>
+<div class="item"><span>SMG</span><span>75.000$</span></div>
+<div class="item"><span>Fuzil</span><span>120.000$</span></div>
+<div class="item"><span>Munição</span><span>2.000$</span></div>
+<div class="item"><span>Colete</span><span>120.000$</span></div>
+<div class="item"><span>Mochila</span><span>130.000$</span></div>
+<div class="item"><span>Lockpick</span><span>55.000$</span></div>
+<div class="item"><span>Masterpick</span><span>100.000$</span></div>
+
+</div>
 
 
 <div class="nota">
 
 <b>Nota Importante:</b>  
-Todos os valores estão sujeitos a atualizações periódicas conforme
-variações da economia da cidade.
+Todos os valores podem sofrer alterações conforme a economia da cidade.
 
 </div>
-
 
 </div>
 
 </body>
 </html>
-
