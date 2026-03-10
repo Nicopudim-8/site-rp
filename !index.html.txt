@@ -1,0 +1,174 @@
+<!index.html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Tabela de Valores da Cidade</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0a0014,#1b0033,#2d0055);
+    color:white;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+h2{
+    margin-top:60px;
+    font-size:32px;
+}
+
+p{
+    color:#cfcfcf;
+    line-height:1.6;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    border-top:2px solid #a855f7;
+    padding-top:20px;
+}
+
+.tabela{
+    margin-top:30px;
+    background:rgba(255,255,255,0.03);
+    padding:25px;
+    border-radius:10px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    padding:8px 0;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.item:last-child{
+    border-bottom:none;
+}
+
+.nota{
+    margin-top:60px;
+    background:#3b0764;
+    padding:20px;
+    border-radius:8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Tabelas de Valores da Cidade</h1>
+
+<p>
+Bem-vindo ao sistema de consulta de valores da cidade.  
+Aqui você encontra as principais tabelas de referência utilizadas no RP,
+incluindo mecânica, hospital e ilegal.
+</p>
+
+
+<h2>Tabela Mecânica</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>01 - Reparo</h3>
+
+<p>Dentro da Mecânica: <b>25.000$</b></p>
+<p>Fora da Mecânica: <b>50.000$</b></p>
+
+</div>
+
+
+<div class="card">
+<h3>02 - Full Tuning</h3>
+
+<p>Turbo, Transmissão, Freio, Motor e Suspensão:</p>
+<p><b>120.000$ cada</b></p>
+
+</div>
+
+</div>
+
+
+
+<h2>Blindagem</h2>
+
+<div class="tabela">
+
+<div class="item">
+<span>Blindagem</span>
+<span>6.000.000$</span>
+</div>
+
+<div class="item">
+<span>Blindagem dos Pneus</span>
+<span>Indisponível</span>
+</div>
+
+</div>
+
+
+
+<h2>Acessórios</h2>
+
+<div class="tabela">
+
+<div class="item"><span>Placa</span><span>55.000</span></div>
+<div class="item"><span>Livery</span><span>55.000</span></div>
+<div class="item"><span>Bloco do Motor</span><span>35.000</span></div>
+<div class="item"><span>Hidráulica</span><span>35.000</span></div>
+<div class="item"><span>Roda Traseira</span><span>100.000</span></div>
+<div class="item"><span>Roda Dianteira</span><span>100.000</span></div>
+<div class="item"><span>Teto</span><span>35.000</span></div>
+<div class="item"><span>Paralama Direito</span><span>35.000</span></div>
+<div class="item"><span>Paralama Esquerdo</span><span>35.000</span></div>
+<div class="item"><span>Capô</span><span>35.000</span></div>
+<div class="item"><span>Grade</span><span>35.000</span></div>
+<div class="item"><span>Gaiola</span><span>35.000</span></div>
+<div class="item"><span>Exaustor</span><span>35.000</span></div>
+<div class="item"><span>Saias</span><span>35.000</span></div>
+<div class="item"><span>Parachoque Traseiro</span><span>35.000</span></div>
+<div class="item"><span>Parachoque Dianteiro</span><span>35.000</span></div>
+<div class="item"><span>Aerofólio</span><span>35.000</span></div>
+<div class="item"><span>Xenon</span><span>35.000</span></div>
+<div class="item"><span>Buzina</span><span>55.000</span></div>
+<div class="item"><span>Fumaça do Pneu</span><span>1.000</span></div>
+
+</div>
+
+
+
+<div class="nota">
+
+<b>Nota Importante:</b>  
+Todos os valores estão sujeitos a atualizações periódicas conforme
+variações da economia da cidade.
+
+</div>
+
+
+</div>
+
+</body>
+</html>
